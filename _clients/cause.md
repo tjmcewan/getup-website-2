@@ -6,4 +6,4 @@ image_path: /images/clients/cause.jpg
 ---
 
 
-Can't edit the header?
+Can't edit the header? Oh wow, now we're talking.
