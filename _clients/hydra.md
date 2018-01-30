@@ -1,15 +1,16 @@
 ---
 name: Hydra Template
 subtitle: Product marketing template for Jekyll
-external_url: https://github.com/CloudCannon/hydra-jekyll-template
+external_url: 'https://github.com/CloudCannon/hydra-jekyll-template'
 image_path: /images/clients/hydra.png
 ---
 
-Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
 
-Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+![](/uploads/versions/getup-logo---x----801-349x---.png)
+
+Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/). Increase the web presence of your brand with this configurable theme.
+
+Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll. Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
 
 Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
 
@@ -30,8 +31,8 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Setup
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
+1. Add your site and author details in `\_config.yml`.
+2. Add your Google Analytics and Disqus keys to `\_config.yml`.
 3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
 ## Develop
@@ -40,15 +41,15 @@ Hydra was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should su
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
-~~~bash
+```bash
 $ bundle install
-~~~
+```
 
 Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-~~~bash
+```bash
 $ bundle exec jekyll serve
-~~~
+```
 
 ## Editing
 
@@ -58,8 +59,8 @@ Hydra is already optimised for adding, updating and removing pages, staff, advic
 
 * Add, update or remove a post in the *Posts* collection.
 * The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `\_docs` folder.
+* Change the defaults when new posts are created in `\_posts/\_defaults.md`.
 
 ### Contact Form
 
@@ -69,7 +70,7 @@ Hydra is already optimised for adding, updating and removing pages, staff, advic
 ### Staff
 
 * Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+* Add `excluded\_in\_search: true` to any documentation page's front matter to exclude that page in the search results.
 
 ### Footer
 
